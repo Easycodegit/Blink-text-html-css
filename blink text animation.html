@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation.com</title>
+</head>
+
+<body>
+    <h1>Css Hover Animation</h1>
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        position: relative;
+        font-weight: 900;
+        font-size: 10vw;
+        text-align: center;
+        animation: bgtext 1.5s infinite;
+    }
+    
+    @keyframes bgtext {
+        0% {
+            opacity: 0;
+        }
+        
+        100% { 
+            opacity: 1;
+        }
+    }
+</style>
+
+</html>
